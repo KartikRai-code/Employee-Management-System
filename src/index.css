@@ -3,9 +3,13 @@
 @tailwind utilities;
 
 *{
-  color: #7951aa;
+  color: #fff ;
 }
 
 body{
-  background-color: #c08181;
+  background-color:#111;
+}
+
+#tasklist::-webkit-scrollbar{
+  display: none;
 }

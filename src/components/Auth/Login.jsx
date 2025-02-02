@@ -11,7 +11,7 @@ const Login = ({handleLogin}) => {
     const submitHandler = (e)=>{
         e.preventDefault()
         handleLogin(email,password)
-        setEmail("")
+        setEmail("") 
         setPassword("")
     }
 
