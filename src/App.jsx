@@ -47,6 +47,6 @@ const App = () => {
       {user == 'admin' ? <AdminDashboard changeUser={setUser} /> : (user == 'employee' ? <EmployeeDashboard changeUser={setUser} data={loggedInUserData} /> : null) }
     </>
   )
-}
+}    
 
 export default App
